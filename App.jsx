@@ -262,9 +262,59 @@ function Footer() {
 
         <div>
           <h3 className="text-xl font-bold mb-3">Stay Connected</h3>
-          <p>Facebook</p>
-          <p>Twitter</p>
-          <p>Instagram</p>
+          <p className="text-cyan-50 mb-4">Follow DEV@Deakin on social media.</p>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              title="Facebook"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-cyan-800 hover:bg-cyan-100 transition"
+            >
+              <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden="true">
+                <path d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.5 1.6-1.5h1.7V3.1c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.1H6.8v3.2h2.9V21h3.7Z" />
+              </svg>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-cyan-800 hover:bg-cyan-100 transition"
+            >
+              <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.7" r="1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-cyan-800 hover:bg-cyan-100 transition"
+            >
+              <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden="true">
+                <path d="M5.2 8.5H2.4V21h2.8V8.5ZM3.8 3a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4ZM21.6 13.8c0-3.8-2-5.6-4.7-5.6-2.2 0-3.2 1.2-3.7 2V8.5h-2.8V21h2.8v-6.2c0-1.6.3-3.2 2.3-3.2s2.1 1.9 2.1 3.3V21h2.8l1.2-7.2Z" />
+              </svg>
+            </a>
+            <a
+              href="https://x.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="X (Twitter)"
+              title="X (Twitter)"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white text-cyan-800 hover:bg-cyan-100 transition"
+            >
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
+                <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.7 5.6 22H2.4l7.3-8.4L1.8 2h6.5l4.4 6.7L18.9 2Zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20Z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
